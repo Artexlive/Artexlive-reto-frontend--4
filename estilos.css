@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 86%);
+   
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	text-decoration:none;
+	color:inherit;
+	background-color:transparent;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Darkcyan);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_one_section_info {
+    text-align: center;
+}
+
+.card_one_section_info_img {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -55px;
+}
+
+.card_one_section_info_nombre {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--Verydarkdesaturatedblue);
+    margin-top: 15px;
+}
+
+.card_one_section_info_nombre span {
+    margin-left: 7px;
+    color: var(--Darkgrayishblue);
+    font-weight: 400;
+}
+
+.card_one_section_info_pais {
+    color: var(--Darkgrayishblue);
+    margin-top: 8px;
+}
+
+.card_two_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    margin-top: 30px;
+    text-align: center;
+    border-top: 0.02px solid var(--Darkgray);
+}
+
+.number {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--Verydarkdesaturatedblue);
+}
+
+.estilo {
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--Darkgrayishblue);
+    margin-top: 6px;
+}
+
